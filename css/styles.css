@@ -185,6 +185,12 @@ h5 {
 	padding-top: 100%;
 }
 
+.image-size-400 img{
+    width: 400px
+}
+    
+
+
 .post-image {
 	position:  absolute;
 	top: 0;
