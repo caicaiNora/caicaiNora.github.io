@@ -1,7 +1,11 @@
 body {
-	font-family: 'Helvetica Neue','Optima', 'Coverage';
-	margin-left: 24px;
-	margin-right: 24px;
+	font-weight: 300;
+    font-size: 14PX;
+    font-style: normal;
+    line-height: 1.8em;
+    font-family: 'europa';
+    letter-spacing: .04px;
+    margin: 0 0 1em;
 }
 
 form {
@@ -63,18 +67,23 @@ h1 {
 	font-family: europa;
     font-weight: 700;
     font-style: normal;
+	font-size: 28PX;
     line-height: 1.2em;
     text-transform: none;
 	letter-spacing: .01em;
     margin: 1em 0 0.5em;
+	color: #111;
+	text-transform: none;
 }
 h2 {
-	font-weight: bold;
+	font-weight: 700;
     font-size: 20.8PX;
     font-family: 'europa';
     letter-spacing: .01em;
     color: #111;
 	margin: 1em 0 0.5em;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em
 }
 
 /* 帖子正文 */
@@ -117,9 +126,8 @@ h5 {
 .navbar-brand {
     font-weight: 400;
     font-size: 24PX;
-    font-family: 'Swift';
     letter-spacing: 10px;
-    color: darkblue!important;
+    color: #002FA7!important;
 }
 
 .ml-2 {
@@ -131,9 +139,8 @@ h5 {
 }
 
 .nav-item {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 400;
-	font-family: 'Coverage';
 	letter-spacing: 1.8px;
 }
 
