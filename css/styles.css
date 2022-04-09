@@ -5,7 +5,7 @@ body {
     line-height: 1.8em;
     font-family: 'europa';
     letter-spacing: .04px;
-    margin: 0 0 1em;
+    margin: 0 4 1 4 px;
 }
 
 form {
@@ -24,7 +24,7 @@ button {
 
 button:hover {
 	color: #002FA7;
-	border: solid #000 5px;
+	border: solid #000 2px;
   text-decoration: none;
 }
 
@@ -124,9 +124,9 @@ h5 {
 }
 
 .navbar-brand {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 24PX;
-    letter-spacing: 10px;
+    letter-spacing: 0px;
     color: #002FA7!important;
 }
 
@@ -189,8 +189,6 @@ h5 {
     width: 400px
 }
     
-
-
 .post-image {
 	position:  absolute;
 	top: 0;
@@ -211,7 +209,7 @@ h5 {
 }
 
 .post-details {
-	font-size: 14px;
+	font-size: 16px;
 	color: #666(41, 41, 41)
 	text-align: left;
 }
