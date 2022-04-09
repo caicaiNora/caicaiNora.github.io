@@ -5,12 +5,20 @@ body {
     line-height: 1.8em;
     font-family: 'europa';
     letter-spacing: .04px;
-    margin: 0 4 1 4 px;
+}
+
+.container-fluid {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+	max-width: 1110px;
 }
 
 form {
 	max-width: 500px;
-	margin: 0 auto;
+	margin: 0 10 0auto;
 }
 
 button {
@@ -139,8 +147,8 @@ h5 {
 }
 
 .nav-item {
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 14px;
+	font-weight: 300;
 	letter-spacing: 1.8px;
 }
 
@@ -291,4 +299,17 @@ h5 {
 	font-weight: 300;
 	margin: 0 10px;
 	color: #000;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.px-1 {
+    padding-right: 16px!important;
+    padding-left: 16px!important;
 }
