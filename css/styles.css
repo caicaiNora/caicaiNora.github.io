@@ -72,19 +72,19 @@ input:focus, textarea:focus {
 /* 帖子标题 */
 
 h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
-	font-size: 28PX;
+	font-size: 24PX;
     line-height: 1.2em;
     text-transform: none;
 	letter-spacing: .01em;
     margin: 1em 0 0.5em;
-	color: #111;
+	color: #3b3b3b;
 	text-transform: none;
 }
 h2 {
 	font-weight: 700;
-    font-size: 20.8PX;
+    font-size: 18PX;
     letter-spacing: .01em;
     color: #111;
 	margin: 1em 0 0.5em;
@@ -107,7 +107,7 @@ h3 {
 /* 目录页标题 */
 
 h4 {
-    font-weight: 300;
+    font-weight: 500;
 	font-size: 20PX;
     font-style: normal;
     letter-spacing: .04em;
@@ -286,12 +286,12 @@ h5 {
 .page-nav {
 	width: 50%;
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
 }
 .page-nav a,span {
 	font-size: 1.3rem;
 	font-weight: 300;
-	margin: 0 10px;
+	margin: 0 0px;
 	color: #000;
 }
 
