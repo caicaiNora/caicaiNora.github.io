@@ -13,7 +13,7 @@ body {
     margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
-	max-width: 1110px;
+	max-width: 900px;
 }
 
 form {
@@ -308,4 +308,12 @@ h5 {
 .px-1 {
     padding-right: 16px!important;
     padding-left: 16px!important;
+}
+
+code {
+	padding: rem 0.4rem;
+	font-size: 90%;
+	color: #ffffff;
+	background-color: #636364;
+	border-radius: 0.25rem;
 }

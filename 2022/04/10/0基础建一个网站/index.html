@@ -93,14 +93,53 @@
 </div>
 
 <hr>
-<p><strong>关于封面图</strong><br>这是《新视线》杂志最后一期的海报之一（两面都有印刷），好像和建网站也没什么关系，但是我会把它当作头图，一定有我的直觉依据。<br>我想到了，大学学习C语言的时候，每节课的目标就是消除bugs，文件夹里新增的作业文档能一点点填满我的反馈容器。写代码能让我在万维网里占据一个角落，开始我的创造。设计对我的创造能力的挖掘，也让我有这样的满足感。网络和设计是世界上最伟大的发明。</p>
+<p><strong>关于封面图</strong><br>这是《新视线》杂志最后一期的海报之一（两面都有印刷），好像和建网站也没什么关系，但是我会把它当作头图，一定有我的直觉依据。啊，我想到了，大学学习C语言的时候，每节课的目标就是消除bugs，文件夹里新增的作业文档能一点点填满我的反馈容器。写代码能让我在万维网里占据一个角落，开始我的创造。设计对我的创造能力的挖掘，也让我有这样的满足感。网络和设计是世界上最伟大的发明。</p>
 <hr>
 <p>好了，碎碎念结束。正经的建网络教程开始了，如你所见，我是一个很啰嗦的人，和教figma的草帽老师一样，但是对于和我同样小白的网站建造者，罗嗦的教程才是他们需要的呀~</p>
 <hr>
-<h2 id="首先，先捋一下整体思路"><a href="#首先，先捋一下整体思路" class="headerlink" title="#首先，先捋一下整体思路"></a>#首先，先捋一下整体思路</h2><p>网站从我们的电脑上建立，通过一些看不见的通道，传向万维网上。你可以把你的网站文件看作一个包裹，我们打包好送上路，他们就沿着我们规定好的路线传向公开网络世界。<br>所以建立一个网站，我们要做什么呢：建立电脑上的仓库（网站相关内容的文件夹），指一个传输的道路，在万维网上建一个空间站、仓库（储存我们的文件）。</p>
-<h2 id="1-建立电脑上的仓库"><a href="#1-建立电脑上的仓库" class="headerlink" title="1.建立电脑上的仓库"></a>1.建立电脑上的仓库</h2><p>为了保证这个仓库的顺畅运行，以及让我们的电脑进入仓库建立流程，我们需要下载几个软件。<br><strong>1.node.js：</strong><br>　<a target="_blank" rel="noopener" href="https://nodejs.org/en/%E4%B8%8A%E5%AE%89%E8%A3%85">https://nodejs.org/en/上安装</a><br>　检查安装效果：同时按一下Win+R打开cmd（输入命令符的一个面板）<br>　输入以下命令检查安装的软件的版本：<br>＇＇＇<br>node -v<br>＇＇＇</p>
+<h2 id="首先，先捋一下整体思路"><a href="#首先，先捋一下整体思路" class="headerlink" title="#首先，先捋一下整体思路"></a>#首先，先捋一下整体思路</h2><p>网站从我们的电脑上建立，通过一些看不见的通道，传向万维网上。你可以把你的网站文件看作一个包裹，我们打包好送上路，他们就沿着我们规定好的路线传向公开网络世界。<br><u>所以<u>，建立一个网站，我们要做什么呢：建立电脑上的仓库（网站相关内容的文件夹），在万维网上建一个空间站、仓库（储存我们的文件），指一个传输的道路，传输文件。</u></u></p>
+<hr>
+<h2 id="1-建立电脑上的仓库"><a href="#1-建立电脑上的仓库" class="headerlink" title="1.建立电脑上的仓库"></a>1.建立电脑上的仓库</h2><p>为了保证这个仓库的顺畅运行，以及让我们的电脑进入仓库建立流程，我们需要下载几个软件。</p>
+<h2 id="1-1-node-js"><a href="#1-1-node-js" class="headerlink" title="1.1 node.js"></a>1.1 node.js</h2><p>下载地址：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a></p>
+<div class="image-size-300" style="vertical-center">
+<img src="/2022/04/10/0%E5%9F%BA%E7%A1%80%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/1649658907(1).png" class title="图片信息描述">
+</div>
+检查安装效果：键盘按一下Win+R打开cmd（输入命令符的一个面板）
+
+<div class="image-size-300" style="vertical-center">
+<img src="/2022/04/10/0%E5%9F%BA%E7%A1%80%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/1649658993(1).png" class title="图片信息描述">
+</div>
+
+<p>输入以下命令检查安装的软件的版本:<br><code>node -v</code>　查看node版本<br><code>npm -v</code>　查看npm版本<br>返回这样的数据就没问题～</p>
+<div class="image-size-300" style="vertical-center">
+<img src="/2022/04/10/0%E5%9F%BA%E7%A1%80%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/1649659496(1).jpg" class title="图片信息描述">
+</div>
+
+
+<h2 id="1-2-Git"><a href="#1-2-Git" class="headerlink" title="1.2.Git"></a>1.2.Git</h2><p>下载地址：<a target="_blank" rel="noopener" href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>　<br>一路next吧，除了这一步</p>
+<div class="image-size-300" style="vertical-center">
+<img src="/2022/04/10/0%E5%9F%BA%E7%A1%80%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/git%E5%AE%89%E8%A3%85.png" class title="图片信息描述">
+</div>
+输入以下命令检查Git版本：
+
+<p><code>node -v</code><br>双横线！version不缩写！</p>
+<h2 id="1-3-Hexo"><a href="#1-3-Hexo" class="headerlink" title="1.3.Hexo"></a>1.3.Hexo</h2><p>重点来了啊，我们的博客是用Hexo建立的，并且之后对网站做修改，也会在按照Hexo的文件夹内进行，所以请自己建一个保存网站内容的文件夹，并打开文件夹，我们是打开了，电脑不知道呀，怎么通知它呢，请在文件夹空白处右键，此时你的命令行里会出现“Git Bash here”,点击它，就会弹出这一个Git窗口，Git就是一个使者，告诉你的电脑你要做什么。观察一下这个冒号前面的文件层级。是不是到了你的博客文件夹，是的话，那就是通知成功了。 </p>
+<p>输入命令，安装Hexo<br><code>npm install -g hexo-cli</code><br>依旧查看一下版本<br><code>hexo -v</code><br>初始化Hexo<br><code>hexo init （此处填你的博客名，随便啥名）</code>　<br>eg.hexo init blueblunora<br>到了这一步结束，你的本地博客文件保存仓库建立，并且做好了安装安装准备<br><code>cd （此处填你的博客名）</code> 进入这个博客文件夹<br><code>npm install</code></p>
+<p>运行之后，这个博客文件夹内出现很多文件<br>node_modules: 依赖包<br>public：存放生成的页面<br>scaffolds：生成文章的一些模板<br>source：用来存放你的文章<br>themes：主题<br>_config.yml: 博客的配置文件</p>
+<p>更新待上传文档的内容<br><code>hexo g</code><br>开启本地预览，可以在上传之前预览页面效果<br><code>hexo s</code><br>浏览器地址栏输入 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 即可本地预览博客</p>
 <h2 id="2-建一个空间站"><a href="#2-建一个空间站" class="headerlink" title="2.建一个空间站"></a>2.建一个空间站</h2><p>这个仓库，我们会建立在一个叫GitHub的网站上建立。<br>那么，先注册：<a target="_blank" rel="noopener" href="https://github.com/">https://github.com/</a><br>新建一个仓库：右上角头像-“Your repositories”-绿色“New”按钮<br>Create a new repository：Repository name这里填“xxxx.github.io”-Create repository</p>
-<h2 id="3-指定一个传输通道"><a href="#3-指定一个传输通道" class="headerlink" title="3.指定一个传输通道"></a>3.指定一个传输通道</h2>
+<h2 id="3-指定一个传输通道"><a href="#3-指定一个传输通道" class="headerlink" title="3.指定一个传输通道"></a>3.指定一个传输通道</h2><p>这个传输通道由一副钥匙指定方向，这个钥匙叫做SSH，当本地的钥匙和网络上的钥匙配对后，你的网页文件就被送到指定的仓库。<br>在继续在博客文件夹中，git bash here</p>
+<p><code>git config --global user.name &quot;yourname&quot;</code><br>yourname为GitHub用户名<br><code>git config --global user.email &quot;youremail&quot;</code><br>youremail为GitHub邮箱</p>
+<p>设置完成之后，检查一下网络有没有记录正确<br><code>git config user.name</code><br>检查钥匙的用户名<br><code>git config user.email</code><br>检查钥匙的用户邮箱</p>
+<p><code>sh-keygen -t rsa -C &quot;youremail&quot;</code><br>一路回车，直到这个界面出现</p>
+<p>在电脑中，找到.ssh这个文件夹，里面包含了你的钥匙密码<br>ssh，简单来讲，就是一个秘钥，其中，id_rsa是你这台电脑的私人秘钥，不能给别人看的，id_rsa.pub是公共秘钥，可以随便给别人看。把这个公钥放在GitHub上，这样当你链接GitHub自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过git上传你的文件到GitHub上。</p>
+<p>在github中设置秘钥信息，这个钥匙的密码就你知，github知，网络知。<br>github点击头像-settings-左侧边栏找“SSH and GPG keys”,”Add SSH keys”,title随便写，保险起见写github的用户名，避免链接出错<br>git bash here<br><code>ssh -T git@github.com</code></p>
+<h2 id="4-文件从本地传输到网络"><a href="#4-文件从本地传输到网络" class="headerlink" title="4.文件从本地传输到网络"></a>4.文件从本地传输到网络</h2><p>在本地文件中找到 config.yml，在里面修改一些内容，不出意外，这段内容在文件最后一段<br>deploy:<br>  type: git<br>  repo: <a target="_blank" rel="noopener" href="https://github.com/YourgithubName/YourgithubName.github.io.git">https://github.com/YourgithubName/YourgithubName.github.io.git</a><br>  branch: main</p>
+<p>安装deploy-git，使你的电脑具备部署内容到github的功能<br><code>npm install hexo-deployer-git --save</code><br><code>hexo clean</code> 清空装满上传文件的文件夹<br><code>hexo g</code> 更新待上传的文件<br><code>hexo d</code> 部署本地文件到github</p>
+<p>部署后，去github查看动态：去我们的repository，点击action这个标签页，一是看是否部署成功，二是看出错的话卡在哪个环节。</p>
+<p>部署成功之后，可以在仓库的settings这里找到pages部分，查看你的网站地址，这个地址和前面的local有区别，这次的地址是网络朋友都能看到的</p>
+<h2 id="5-修改个人配置"><a href="#5-修改个人配置" class="headerlink" title="5.修改个人配置"></a>5.修改个人配置</h2><p>未完待续，写不动了真的。</p>
+
 </article>
 
 <div id="paginator">
