@@ -190,26 +190,6 @@
     <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
   <div class="image-box">
     <div class="post-image">
-      <a href="/2022/04/07/hello-world/">
-        <img class="img-fluid" src="/images/helloworld.jpg" alt="Hello World">
-      </a>
-    </div>
-  </div>
-  <div class="post-details">
-    <a href="/2022/04/07/hello-world/">
-      <span class="date">Hello World</span>
-    </a>
-  </div>
-    </a>
-  </div>
-
-
- 
-
-
-    <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
-  <div class="image-box">
-    <div class="post-image">
       <a href="/2022/04/07/语法记录文档/">
         <img class="img-fluid" src="/images/语法记录.png" alt="语法记录">
       </a>
@@ -227,6 +207,49 @@
  
 
 
+    <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
+  <div class="image-box">
+    <div class="post-image">
+      <a href="/2022/04/07/hello-world/">
+        <img class="img-fluid" src="/images/helloworld.jpg" alt="Hello World">
+      </a>
+    </div>
+  </div>
+  <div class="post-details">
+    <a href="/2022/04/07/hello-world/">
+      <span class="date">Hello World</span>
+    </a>
+  </div>
+    </a>
+  </div>
+
+
+ 
+
+
+
+
+< % if (theme.valine && post.comments) { 
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!-- 当然啦，这个可以在<head></head>中引入 -->
+  <div id="vcomments"></div>
+  <script>
+  new Valine({
+      el: '#vcomments' ,
+      appId: 'oscBdbSkvh2d6Kx9IrN6bXuU-gzGzoHsz',
+      appKey: 'mtum7rNvvH0hrgKV9u5WHsN8',
+      notify:false, 
+      verify:false, 
+      avatar:'mp', 
+      placeholder: '朋友们，欢迎踩踩，我想加微博上背小书包的表情，可是没有' 
+  });
+  </script>
+< % } 
+
+<span id="/index.html" class="leancloud_visitors" data-flag-title="Your Article Title">
+  <em class="post-meta-item-text">阅读量 </em>
+  <i class="leancloud-visitors-count">1000000</i>
+</span>
 
       </div>
       
@@ -239,6 +262,8 @@
 
   </body>
 </html>
+
+
 
 
 
