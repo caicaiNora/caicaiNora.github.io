@@ -8,7 +8,7 @@
 
   <!-- Title -->
   
-  <title>page - Blue_blu Nora</title>
+  <title>过刊/像爸爸一样喝酒 - Blue_blu Nora</title>
 
   <!--Favicon-->
   <link rel="icon" href="favicon/favicon.jpg">
@@ -86,54 +86,41 @@
 
 
   		<div class="row">
-  			
-    <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
-  <div class="image-box">
-    <div class="post-image">
-      <a href="/2022/04/07/hello-world/">
-        <img class="img-fluid" src="/images/helloworld.jpg" alt="Hello World">
-      </a>
-    </div>
-  </div>
-  <div class="post-details">
-    <a href="/2022/04/07/hello-world/">
-      <span class="date">Hello World</span>
-    </a>
-  </div>
-    </a>
-  </div>
+  			<article id="post">
+  <h1>过刊/像爸爸一样喝酒</h1>
+  <hr>
+<div class="image-size-300">
+<img src="/2022/04/14/%E8%BF%87%E5%88%8A-%E7%88%B8%E7%88%B8%E5%96%9D%E9%85%92/%E8%BF%87%E5%88%8A%E7%BC%96%E8%BE%91%E9%83%A8.jpg" class title="图片信息描述">
+</div>
 
+<p>04-10-18：08<br>这是昨天听的播客节目，听到左小姐大哭，我突然和自己的委屈和解，不是我一个人会因为这些细碎的小事难过啊</p>
+<p>04-11-11：58<br>　　其实个人在大众面前暴露太多，会让我很没安全感。当对方掌握我的信息更多，攻击我的方式也就更多。人都是有阴暗面的，到了愤怒或者狂躁的时候，这些信息储备要不要出动全是一瞬间的选择。为什么是这种看起来很消极的思路呢，生活经验罢了。<br>　　Leah第一次在我家住的时候，我狂喝了一瓶诱惑，没有慢慢抿下去，和播客里的左小姐一样，就是想体验喝醉的感觉。那天我竟然哼着歌就晃晃悠悠准备睡觉了。和她聊我对爸妈的感受，哭得很伤心。以前也这样哭过的。唯独这一次，她说：我第一次感受你爸妈对你的影响。<br>　　哪怕是这样十多年的朋友，也第一次更近距离体会我的难过。感同身受真的不存在的。<br>　　我和爸妈的关系从我有个人意识开始就变得很糟，我被禁锢在框子里然后释放出来，发现除了听他们的话，我也可以自己做主。<br>　　和左小姐一样，我不是没有尝试沟通。我也试过很多方式，但是就和爱情一样，我想要倾诉、获取理解和支持的时候，他们没有这个心思。他们试图参与我的成长，我的心死得很彻底。也许是成年人的世界有很多烦恼，小孩子们的事情真的不值得一提，但也会想，我是他们的小孩，我和他们的情感关系要先于事件本身的重要性。</p>
 
- 
+</article>
 
+<div id="paginator">
+  
+</div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 mb-4">
-  <div class="image-box">
-    <div class="post-image">
-      <a href="/2022/04/07/语法记录文档/">
-        <img class="img-fluid" src="/images/语法记录.png" alt="语法记录">
-      </a>
-    </div>
-  </div>
-  <div class="post-details">
-    <a href="/2022/04/07/语法记录文档/">
-      <span class="date">语法记录</span>
-    </a>
-  </div>
-    </a>
-  </div>
-
-
- 
-
-
+< % if (theme.valine && post.comments) { %>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <!-- 当然啦，这个可以在<head></head>中引入 -->
+  <div id="vcomments"></div>
+  <script>
+  new Valine({
+      el: '#vcomments' ,
+      appId: 'oscBdbSkvh2d6Kx9IrN6bXuU-gzGzoHsz',
+      appKey: 'mtum7rNvvH0hrgKV9u5WHsN8',
+      notify:false, 
+      verify:false, 
+      avatar:'mp', 
+      placeholder: '网络一线牵，珍惜这段缘' 
+  });
+  </script>
+< % } %>
 
       </div>
       
-    <nav class="page-nav">
-        <a class="extend prev" rel="prev" href="/archives/2022/04/">&lt;</a><a class="page-number" href="/archives/2022/04/">1</a><span class="page-number current">2</span>
-    </nav>
-
   	</div>
 
     <!-- After footer scripts -->
@@ -144,4 +131,5 @@
   </body>
 </html>
 
-{{ partial "comments.html" . }}
+
+
